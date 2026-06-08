@@ -1,7 +1,7 @@
 // 로컬스토리지의 장바구니 정보 조회
 // cartItems에 할당
 // cart-list의 내용의 뒤에 태그 생성
-
+// 과제 2
 import { readCart, updateCartCount } from "./utils/common.js";
 const cartItems = readCart();
 const cartLayout = document.querySelector(".cart-list");

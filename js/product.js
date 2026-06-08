@@ -86,7 +86,7 @@ function createRecommendLists(all, category, id) {
   recommendGrid.innerHTML = recommendHTML.join("");
 }
 
-// 상품 상세 tab ------------------------------------- 과제 1
+// 상품 상세 tab ------------------------------------ 과제 1
 const detailTabMenus = document.querySelectorAll(".detail-tabs > a"),
   detailTabContents = document.querySelectorAll(".tab-content > section");
 // detail_tab_menus를 클릭하면, 변수명 target에 클릭한 요소의 href 속성 값 할당.
