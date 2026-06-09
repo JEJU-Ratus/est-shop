@@ -91,7 +91,8 @@ const detailTabMenus = document.querySelectorAll(".detail-tabs > a"),
   detailTabContents = document.querySelectorAll(".tab-content > section");
 // detail_tab_menus를 클릭하면, 변수명 target에 클릭한 요소의 href 속성 값 할당.
 detailTabMenus.forEach(m => {
-  m.addEventListener("click", () => {
+  m.addEventListener("click", e => {
+    e.preventDefault();
     detailTabMenus.forEach(tm => {
       tm.classList.remove("active");
     });
