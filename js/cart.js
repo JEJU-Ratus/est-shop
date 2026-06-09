@@ -21,7 +21,7 @@ const cartHTML = cartItems.map(
               <div class="cart-item-info">
                 <h2>${item.title}</h2>
                 <p>${item.brand} | 블랙</p>
-                <strong>189,000원</strong>
+                <strong>${item.price}</strong>
               </div>
               <div class="quantity-box" aria-label="수량">
                 <button type="button" aria-label="수량 줄이기">-</button>
