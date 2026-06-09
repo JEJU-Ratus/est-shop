@@ -87,6 +87,16 @@
   color: #111827;
   font-weight: 600;
 }
+.select-all {
+  cursor: pointer;
+}
+
+.select-all input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: #4f46e5;
+}
 
 .cart-list-header button,
 .remove-item,
@@ -107,24 +117,6 @@
 
 .cart-item + .cart-item {
   border-top: 1px solid var(--color-border);
-}
-
-.check-box {
-  display: inline-grid;
-  width: 16px;
-  height: 16px;
-  place-items: center;
-  border-radius: 3px;
-  background: #4f46e5;
-}
-
-.check-box::before {
-  width: 9px;
-  height: 6px;
-  border-bottom: 2px solid #fff;
-  border-left: 2px solid #fff;
-  content: "";
-  transform: rotate(-45deg) translate(1px, -1px);
 }
 
 .cart-thumb {

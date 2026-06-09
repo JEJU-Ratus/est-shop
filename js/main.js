@@ -278,8 +278,8 @@ sortSelect.addEventListener("change", () => {
 let cart = [];
 productGrid.addEventListener("click", e => {
   const btn = e.target.closest("button");
-  const pid = Number(btn.dataset.id);
   if (!btn) return;
+  const pid = Number(btn.dataset.id);
   const product = products.find(p => p.id === pid);
   addToCart(product);
 });
